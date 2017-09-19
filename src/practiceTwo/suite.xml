@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="proc02">
+ <parameter name="testData" value="\src\practiceTwo\test.properties"/>
+ <parameter name="testXpath" value="\src\practiceTwo\xpath.properties"/>
+  <test name="testPara">
+    <classes>
+      <class name="practiceTwo.NewTest">
+        <methods>
+        	<include name="selectItemFromDropDownList"/>
+        </methods>
+      </class> <!-- com.byy.practice.pro02.NewTest -->
+    </classes>
+  </test> 
+</suite> 
