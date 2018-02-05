@@ -2,13 +2,11 @@ package practiceTwo;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Broswers {
@@ -39,6 +37,7 @@ public class Broswers {
 		}
 		
 		if(broswertype.equals("iexplore")){
+			//…Ë÷√«˝∂Ø
 			System.setProperty(pps.getProperty("IEwebdriver"),
 					pps.getProperty("IEdriverPath"));
 			DesiredCapabilities caps = null;
